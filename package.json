@@ -1,0 +1,34 @@
+{
+  "name": "vuepress-plugin-element-ui",
+  "version": "1.0.0",
+  "description": "vuepress plugin to extend elementui base on markdown-it-container",
+  "main": "index.js",
+  "author": "springleo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lq782655835/vuepress-plugin-element-ui"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "ghpages": "gh-pages -d docs/.vuepress/dist",
+    "release": "release-it"
+  },
+  "keywords": [
+    "vuepress",
+    "element-ui",
+    "elementui",
+    "vuepress plugin",
+    "plugin"
+  ],
+  "dependencies": {
+    "element-ui": "^2.13.0",
+    "markdown-it-container": "^2.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "release-it": "^12.4.3",
+    "vuepress": "^1.2.0"
+  }
+}
