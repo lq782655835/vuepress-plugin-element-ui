@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-element-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vuepress plugin to extend elementui base on markdown-it-container",
   "main": "index.js",
   "author": "springleo",
