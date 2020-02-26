@@ -30,12 +30,12 @@ module.exports = {
 ~~~ md
 :::: el-tabs
 
-::: el-tab label=title
+::: el-tab-pane label=title
 __markdown content__
 :::
 
 
-::: el-tab label=javascript
+::: el-tab-pane label=javascript
 ``` javascript
 () => {
   console.log('Javascript code example')
