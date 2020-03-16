@@ -10,7 +10,7 @@ Vuepress plugin - extend [Element UI](https://github.com/ElemeFE/element) base o
 > https://lq782655835.github.io/vuepress-plugin-element-ui/
 
 ## Install
-> This plugin requires VuePress >= 1.0.0, for now you can try it via yarn add vuepress@next -D
+Important: This plugin requires VuePress >= 1.0.0, for now you can try it via yarn add vuepress@next -D
 
 ```shell
 yarn add vuepress-plugin-element-ui -D

@@ -39,7 +39,7 @@ module.exports = function tabsPlugin(md, options = {}) {
         const token = tokens[idx];
         const attributes = getAttributes(token.info, mark);
         if (token.nesting === 1) {
-          return `<${mark} ${attributes}>\n`;'<u-tabs>'
+          return `<${mark} ${attributes}>\n`;
         } else {
           return `</${mark}>\n`;
         }
