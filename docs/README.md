@@ -122,12 +122,26 @@ module.exports = {
 
 ### el-steps
 
+```
+:::: el-steps
+::: el-step title="步骤 11" icon="el-icon-edit"
+:::
+::: el-step title="步骤 2" icon="el-icon-upload"
+:::
+::: el-step title="步骤 3" icon="el-icon-picture"
+:::
+::::
+```
+
 <br/>
 
 :::: el-steps
 ::: el-step title="步骤 11" icon="el-icon-edit"
+:::
 ::: el-step title="步骤 2" icon="el-icon-upload"
+:::
 ::: el-step title="步骤 3" icon="el-icon-picture"
+:::
 ::::
 
 ## All Componenets

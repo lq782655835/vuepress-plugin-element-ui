@@ -10,7 +10,7 @@
     "url": "https://github.com/lq782655835/vuepress-plugin-element-ui"
   },
   "scripts": {
-    "dev": "vuepress dev docs --temp .temp",
+    "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "ghpages": "gh-pages -d docs/.vuepress/dist",
     "release": "release-it"
